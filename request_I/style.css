@@ -1,0 +1,90 @@
+.btn-primary {
+  padding: 8px;
+  border: solid 1px greenyellow;
+  border-radius: 8px;
+  margin: 8px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  opacity: 50%;
+  background-color: rgb(138, 214, 24);
+}
+.container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#title {
+  color: blue;
+  font: bold;
+  font-family: sans-serif;
+}
+.list-comm {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+/* li {
+  list-style: none;
+  padding: 8px;
+  background-color: azure;
+  border: solid 1px black;
+  overflow: auto;
+} */
+img {
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.celdaHome {
+  border: solid 1px black;
+  margin: 8px;
+  list-style: none;
+  display: flex;
+}
+.container-form {
+  margin-top: 48px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+p {
+  float: right;
+}
+.user {
+  text-align: center;
+}
+
+.celda {
+  display: block;
+  width: 25%;
+  text-decoration: none;
+  color: black;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.imgp-cont {
+  display: block;
+}
+@media (max-width: 1000px) {
+  .celda {
+    width: 80%;
+  }
+}
